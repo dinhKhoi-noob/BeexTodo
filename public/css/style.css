@@ -1,0 +1,14 @@
+.main-card-container {
+  display: flex;
+}
+.main-card-item-todo-todo {
+  padding: 1rem;
+  background: linear-gradient(to right #6ab9ee, #0b1e9d);
+}
+.main-card-item-todo-completed {
+  display: flex;
+  padding: 1rem;
+  background: linear-gradient(to right #f66257, #b10717);
+}
+
+/*# sourceMappingURL=style.css.map */

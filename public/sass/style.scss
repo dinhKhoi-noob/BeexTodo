@@ -1,0 +1,22 @@
+.main{
+    &-card{
+        &-container{
+            display:flex;
+        }
+        &-item-todo{
+            &-todo
+            {
+                // display:flex;
+                padding: 1rem;
+                background:linear-gradient(to right rgb(106,185,238), rgb(11,30,157));
+            }
+            &-completed
+            {
+                display:flex;
+                padding: 1rem;
+                background:linear-gradient(to right rgba(246,98,87,1), rgba(177,7,23,1))
+            }
+        }
+    }
+
+}
